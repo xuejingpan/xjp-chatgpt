@@ -21,8 +21,6 @@ const envAdapter = () => {
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://xuejingpan.github.io',
-  base: '/xjp-chatgpt',
   integrations: [
     unocss(),
     solidJs()
